@@ -9,6 +9,9 @@ const Contact = () => {
   useEffect(()=>{
     AOS.init({duration:1200});
   },[]);
+  const makeCall = () => {
+    window.location.href = 'tel:+916380596461';
+  };
   return (
     <div className='container' id='ContactContainer'>
         <div className='row mg mb-5'>
@@ -16,7 +19,7 @@ const Contact = () => {
                 <div data-aos="fade-up">
                     <h1 className='text-white text-center mb-3 fw-bolder'>Wanna Make <span className='gradient'>Conversation<br/></span> To Me?</h1>
                     <p className='para-contact'>Reach out to me today and let's discuss how I can help you achieve your goal</p>
-                    <button type='button' className='shadow btn-contact'>Contact Me now <IoIosArrowForward /></button>
+                    <button type='button' className='shadow btn-contact' onClick={makeCall}>Contact Me now <IoIosArrowForward /></button>
                 </div>
             </div>
             <div className='col-12 col-md-6 copy-container text-center text-md-left'>
