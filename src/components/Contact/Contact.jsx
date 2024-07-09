@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./index.css";
-import { FaInstagram, FaGithub, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa"; 
+import { FaInstagram, FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa"; 
 import { IoIosArrowForward } from "react-icons/io"; 
 import AOS from "aos"
 import 'aos/dist/aos.css'
@@ -23,11 +23,11 @@ const Contact = () => {
                 <h4 className='copyright'>Copyright @2024</h4>
             </div>
             <div className='col-12 col-md-6 icon-container text-center text-md-right'>
-                <FaInstagram className='icon-1'/>
-                <FaGithub className='icon-1'/>
-                <FaLinkedinIn className='icon-1'/>
-                <FaTwitter className='icon-1'/>
-                <FaWhatsapp className='icon-1'/>
+                <a href="https://www.instagram.com/__.__suryaa__.__?igsh=MWNreGh0aGNqaWZ1eQ=="><FaInstagram className='icon-1'/></a>
+                <a href="https://github.com/SuryaaVijayD"><FaGithub className='icon-1'/></a>
+                <a href="https://www.linkedin.com/in/suryaa-d/"><FaLinkedinIn className='icon-1'/></a>
+                <a href="https://wa.me/6380596461"><FaWhatsapp className='icon-1'/></a>
+              
             </div>
         </div>
     </div>
