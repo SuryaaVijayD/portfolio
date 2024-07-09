@@ -1,4 +1,5 @@
 import './index.css'
+import {useEffect} from "react"
 import {MdOutlineKeyboardDoubleArrowDown} from 'react-icons/md'
 import AOS from "aos"
 import 'aos/dist/aos.css'
