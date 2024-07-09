@@ -23,10 +23,10 @@ const Contact = () => {
                 <h4 className='copyright'>Copyright @2024</h4>
             </div>
             <div className='col-12 col-md-6 icon-container text-center text-md-right'>
-                <a href="https://www.instagram.com/__.__suryaa__.__?igsh=MWNreGh0aGNqaWZ1eQ=="><FaInstagram className='icon-1'/></a>
-                <a href="https://github.com/SuryaaVijayD"><FaGithub className='icon-1'/></a>
-                <a href="https://www.linkedin.com/in/suryaa-d/"><FaLinkedinIn className='icon-1'/></a>
-                <a href="https://wa.me/6380596461"><FaWhatsapp className='icon-1'/></a>
+                <a href="https://www.instagram.com/__.__suryaa__.__?igsh=MWNreGh0aGNqaWZ1eQ==" style={{color:"white}}><FaInstagram className='icon-1'/></a>
+                <a href="https://github.com/SuryaaVijayD" style={{color:"white}}><FaGithub className='icon-1'/></a>
+                <a href="https://www.linkedin.com/in/suryaa-d/" style={{color:"white}}><FaLinkedinIn className='icon-1'/></a>
+                <a href="https://wa.me/6380596461" style={{color:"white}}><FaWhatsapp className='icon-1'/></a>
               
             </div>
         </div>
