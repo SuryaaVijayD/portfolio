@@ -1,0 +1,9 @@
+* {
+  font-family: "poppnis", sans-serif;
+}
+
+.background {
+  background: rgb(0, 3, 25);
+  min-height: 100vh;
+  color: white;
+}

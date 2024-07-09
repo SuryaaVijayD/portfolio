@@ -1,0 +1,180 @@
+.mg {
+  margin-top: 80px;
+}
+
+.project-head {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  background: linear-gradient(to bottom, #f39e30, #f85d6b, #fe12b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.cont {
+  height: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.cards {
+  width: 80px;
+  border-radius: 2rem;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+}
+
+.cards > .row-container {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.icon {
+  background: #000319;
+  color: white;
+  border-radius: 50%;
+  min-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: 0.3s;
+  transition: all 0.3s ease;
+}
+
+.description p {
+  color: white;
+  padding-top: 5px;
+}
+
+.description h4 {
+  text-transform: uppercase;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 600px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.cards[for="c1"] {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1711699028/Screenshot_2024-03-29_132445_eel1ta.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.cards[for="c2"] {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1711699046/Screenshot_159_aeoyla.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.cards[for="c3"] {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1711699046/Screenshot_2024-03-29_131238_wveuyh.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.cards[for="c4"] {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1711700150/Screenshot_2024-03-29_134530_wzfoe0.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.cards[for="c5"] {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1720507095/Screenshot_189_aa4z9k.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card-img-top {
+  height: 200px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.card-body {
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+.card-project {
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.1));
+  transition: all 0.5s ease;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card-project:hover {
+  transform: translateY(10px);
+}
+.card-footer {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #14142b;
+}
+.badge {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  color: #14142b;
+}

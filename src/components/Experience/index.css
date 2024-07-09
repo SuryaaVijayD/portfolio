@@ -1,0 +1,45 @@
+.bg-card {
+  background-color: #0c0e23;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  width: auto;
+  border-radius: 10px;
+  color: white;
+}
+.img1 {
+  height: 100px;
+  align-self: center;
+}
+.exp-content {
+  min-width: 60%;
+  height: 100%;
+  text-align: justify;
+  color: white;
+  margin-left: 10px;
+}
+.exp-description {
+  color: white;
+}
+
+.gradient {
+  background: linear-gradient(to bottom, #f39e30, #f85d6b, #fe12b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+@media (min-width: 576px) {
+  .bg-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .exp-content {
+    align-self: flex-start;
+    width: 100%;
+    margin-top: 24px;
+  }
+  .resize {
+    font-size: 30px;
+  }
+}

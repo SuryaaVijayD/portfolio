@@ -1,0 +1,52 @@
+.gradient {
+  background: linear-gradient(to bottom, #f39e30, #f85d6b, #fe12b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.mg {
+  margin-top: 100px;
+}
+.btn-contact {
+  height: 35px;
+  min-width: 120px;
+  overflow: hidden;
+  font-size: 12px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  background-color: #0c0e23;
+  color: white;
+}
+.para-contact {
+  color: grey;
+}
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+.copyright {
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.icon-1 {
+  font-size: 24px;
+  margin: 0 10px;
+}
+.copy-container,
+.icon-container {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .copy-container,
+  .icon-container {
+    margin-top: 0;
+  }
+}

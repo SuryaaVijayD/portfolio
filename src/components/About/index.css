@@ -1,0 +1,105 @@
+.mg {
+  margin-top: 140px;
+}
+.card-1 {
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1720448983/2150062920_zprhpu.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  border-radius: 10px;
+  position: relative;
+}
+.card-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, transparent, rgb(0, 3, 25));
+  border-radius: 10px;
+  z-index: 1;
+}
+.card-head {
+  text-shadow: 2px 2px 5px rgb(0, 3, 25);
+  font-size: 30px;
+}
+.card-1 .card-content {
+  position: relative;
+  z-index: 2;
+}
+.card-2 {
+  height: 60vh;
+  background: linear-gradient(to bottom, #3c314c, rgb(0, 3, 25));
+  border-radius: 10px;
+  border: 2px solid #cbacf9;
+  display: flex;
+  align-items: center;
+}
+.card-3 {
+  height: 30vh;
+  background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1720457909/code_image_ja8y4z.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  border-radius: 10px;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+.para {
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px black;
+}
+.head {
+  text-shadow: 2px 2px 5px black;
+}
+.card-4 {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  background: #0c0e23;
+  border-radius: 20px;
+}
+
+.btn-custom-email {
+  padding: 5px 20px;
+  border: 2px solid #cbacf9;
+  color: #cbacf9;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.surprise-effect {
+  animation: scaleEffect 0.5s ease-in-out;
+}
+
+@keyframes scaleEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .card-head {
+    font-size: 20px;
+  }
+  .head {
+    font-size: 10px;
+  }
+}

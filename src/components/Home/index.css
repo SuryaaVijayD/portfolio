@@ -1,0 +1,85 @@
+.ray1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40%;
+  background-blend-mode: lighten;
+  animation: rayanimate2 1.5s ease-in-out;
+}
+.mainheading {
+  font-size: 70px;
+  width: 80%;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  .mainheading {
+    font-size: 40px;
+  }
+}
+@keyframes rayanimate1 {
+  from {
+    top: -120px;
+    left: -120px;
+  }
+  to {
+    top: 0;
+    left: 0;
+  }
+}
+.ray2 {
+  position: absolute;
+  transform: scaleX(-1);
+  top: 0;
+  left: 0;
+  height: 40%;
+  animation: rayanimate1 1.5s ease-in-out;
+}
+@keyframes rayanimate2 {
+  from {
+    top: -120px;
+    right: -120px;
+  }
+  to {
+    top: 0;
+    right: 0;
+  }
+}
+.landing-page {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.heading {
+  letter-spacing: 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.heading2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.secondary {
+  color: #cbacf9;
+  transition: background 1s ease-in;
+}
+.secondary:hover {
+  background: linear-gradient(to bottom, #f39e30, #f85d6b, #fe12b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.btn-custom {
+  height: 40px;
+  width: 120px;
+  padding: 0 10px;
+  border: 2px solid #cbacf9;
+  background-color: transparent;
+  color: #cbacf9;
+  border-radius: 10px;
+}
