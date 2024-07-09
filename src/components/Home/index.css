@@ -11,6 +11,7 @@
   width: 80%;
   font-weight: bolder;
 }
+
 @media (max-width: 768px) {
   .mainheading {
     font-size: 40px;
