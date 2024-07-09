@@ -1,6 +1,5 @@
 import './index.css'
 import {MdOutlineKeyboardDoubleArrowDown} from 'react-icons/md'
-import 'animate.css'
 
 const Home = () => {
   console.log()
@@ -18,7 +17,7 @@ const Home = () => {
       />
       <div className="landing-page">
         <h4 className="heading">Who am I?</h4>
-        <h1 className="mainheading animate__animated animate__zoomIn">
+        <h1 className="mainheading">
           Changing Imagination to Seamless{' '}
           <span className="secondary">UserExperience</span>
         </h1>
