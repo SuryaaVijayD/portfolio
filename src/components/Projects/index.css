@@ -166,7 +166,7 @@ input:checked + label .description {
   border-radius: 10px;
 }
 .card-project:hover {
-  transform: translateY(10px);
+  transform: translateY(-20px);
 }
 .card-footer {
   margin-top: 10px;
