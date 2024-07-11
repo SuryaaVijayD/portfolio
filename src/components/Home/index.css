@@ -12,6 +12,7 @@
 .mainheading {
   font-size: 70px;
   width: 80%;
+  min-height: 100px;
   font-weight: bolder;
 }
 
