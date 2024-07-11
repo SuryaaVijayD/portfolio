@@ -20,6 +20,9 @@
   .mainheading {
     font-size: 40px;
   }
+  .secondary{
+    font-size:37px;
+  }
 }
 @keyframes rayanimate1 {
   from {
