@@ -102,4 +102,7 @@
   .head {
     font-size: 10px;
   }
+  .card-2 {
+    height: 30vh;
+  }
 }
