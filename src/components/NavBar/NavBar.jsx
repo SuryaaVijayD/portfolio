@@ -16,7 +16,7 @@ const NavBar = () => {
             <a href="#ProjectContainer">Projects</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1rYE7CUyJ_9ivAXj2LxfNPZlmUHKoX5CT/view?usp=drive_link">Resume</a>
+            <a href="https://drive.google.com/file/d/1teRtmdKKuPiZVXR4SY143hdibdG37SY2/view?usp=sharing">Resume</a>
           </li>
           <li>
             <a href="#ContactContainer">Contact</a>
