@@ -106,24 +106,21 @@ function Project() {
             </label>
           </div>
         </div>
-        <div className='d-md-none'>
-        {projects.map((project, index) => (
-          <div className='col-lg-6 mb-4' key={index} data-aos="fade-out">
-            <div className='card-project hover-card'>
-              <img src={project.image} className='card-img-top' alt={project.title} />
-              <div className='card-body'>
-                <h5 className='card-title'>{project.title}</h5>
-                <p className='card-text'>{project.description}</p>
-                <a href={project.link} className='link-btn'>Check it!</a>
+        <div className='d-md-none mt-5'>
+          {projects.map((project, index) => (
+            <div className='col-lg-6 card-container d-flex flex-column justify-content-center align-items-center' key={index} data-aos="fade-right">
+              {/* edited code */}
+              <div className='image-container'>
+                <img src={project.image} alt={project.title} className='prod-image ml-4' />
               </div>
-              <div className='card-footer'>
-                {project.tech.map((tech, i) => (
-                  <span key={i} className='badge bg-secondary me-2'>{tech}</span>
-                ))}
+              <div className='img-content'>
+                <h1>{project.title}</h1>
+                <p>{project.description}</p>
+                <button className='proj-btn' onClick={() => handleClick(project.link)}>View Demo or gitLink</button>
               </div>
+              {/* end */}
             </div>
-          </div>
-        ))}
+          ))}
         </div>
       </div>
     </div>
