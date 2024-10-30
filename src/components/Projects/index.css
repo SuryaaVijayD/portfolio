@@ -210,10 +210,12 @@ input:checked + label .description {
   padding-top: 20px;
   text-transform: capitalize;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 .img-content p{
   font-size: 15px;
   color: gray;
+  margin-bottom: 10px;
 }
 
 
